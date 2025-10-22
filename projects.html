@@ -1,0 +1,129 @@
+<!-- projects.html
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Layth Alabed</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+<div class="theme-settings position-fixed" style="top: 1rem; right: 1rem; z-index: 1050;">
+</div>
+
+
+<!-- Include theme toggle script -->
+<script src="js/theme-toggle.js"></script>
+
+</head>
+<body class="cream-bg text-dark">
+
+  <nav class="navbar navbar-expand-lg navbar-dark navy-bg sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain3">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain3">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="edits.html">Video Editing</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="dropdown ms-3">
+  <button class="btn btn-outline-light dropdown-toggle" type="button" id="themeDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+    ⚙️ Theme
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="themeDropdown">
+    <li><button class="dropdown-item" id="lightModeBtn">☀️ Light Mode</button></li>
+    <li><button class="dropdown-item" id="darkModeBtn">🌙 Dark Mode</button></li>
+  </ul>
+</div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+
+    <!-- New Intro Section -->
+    <section class="mb-5">
+      <h2 class="fw-bold">Coding Projects Overview</h2>
+      <p class="lead mb-4" style="font-family: 'Roboto', sans-serif;">
+        Over the past few years, I've worked on a variety of coding projects that blend creativity with functionality.
+        From building interactive games and web apps to designing backend algorithms, each project reflects my growth as a developer.
+        Below are a few highlights showcasing my skills in TypeScript, Java, and more.
+      </p>
+    </section>
+
+    <header class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="h4 fw-bold">Projects</h2>
+      <p class="mb-0 small text-muted">Click a card to open details or repo link.</p>
+    </header>
+
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-6">
+        <div class="card project-card shadow-sm">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="images/Exit-paradox.jpg" class="img-fluid rounded-start" alt="Project 1">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Exit Paradox (Escape Game)</h5>
+                <p class="card-text small">
+                  Timed puzzle-based adventure game that challenges you to think fast and apply problem-solving skills to escape an incoming apocalypse.
+                </p>
+                <p class="card-text"><small class="text-muted">Tools: TypeScript • P5.js</small></p>
+                <a href="https://github.com/team-echo-2025/game-remake" class="btn btn-outline-dark btn-sm">View Repo</a>
+                <a href="https://game-remake.vercel.app/" class="btn btn-gold btn-sm ms-2">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6">
+        <div class="card project-card">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="images/GetAhouse.jpg" class="img-fluid rounded-start" alt="Project 2">
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">GetAHouse</h5>
+                <p class="card-text small">
+                  GetAHouse is a construction company that assists its customers in connecting with contractors to renovate or build new homes for their customers.
+                </p>
+                <p class="card-text"><small class="text-muted">Tools: Java • NetBeans</small></p>
+                <a href="images/algorithm.png" class="btn btn-outline-dark btn-sm">View Algorithm</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <section class="mt-5 text-center">
+      <h5 class="fw-bold">Want to see more?</h5>
+      <p class="text-muted">You can explore additional projects and contributions on my GitHub profile.</p>
+      <a href="https://github.com/svnnnies" class="btn btn-dark">Visit My GitHub</a>
+    </section>
+
+  </main>
+
+  <footer class="py-4 navy-bg text-white">
+    <div class="container d-flex justify-content-between">
+      <small>© <span id="year3"></span> Layth Alabed</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
